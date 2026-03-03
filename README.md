@@ -73,8 +73,8 @@ The best-performing model per dimension was selected.
 
 ---
 
-## 🎯 Try It
+## 📚 References
 
-Paste any text (forum post, social media bio, journal entry…) and the model will predict your MBTI type across all four dimensions.
+-  [Predicting Myers-Briggs Type Indicator with Text Classification](https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1184/reports/6839354.pdf)
 
-👉 https://huggingface.co/spaces/ramandrosoa/mbti-predictor
+
