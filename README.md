@@ -6,6 +6,22 @@
 
 ---
 
+## 🛠️ Tech Stack
+
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white)
+![matplotlib](https://img.shields.io/badge/matplotlib-11557C?logo=python&logoColor=white)
+![seaborn](https://img.shields.io/badge/seaborn-4C72B0?logo=python&logoColor=white)
+![NLTK](https://img.shields.io/badge/NLTK-NLP-green)
+![spaCy](https://img.shields.io/badge/spaCy-09A3D5?logo=spacy&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikit-learn&logoColor=white)
+![imbalanced-learn](https://img.shields.io/badge/imbalanced--learn-SMOTE-yellow)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/HuggingFace-Spaces-FFD21E?logo=huggingface&logoColor=black)
+
+---
+
 ## 🗂️ Overview
 
 Rather than predicting all 16 MBTI types at once, the problem is decomposed into **four independent binary classifiers**, one per dimension:
@@ -59,23 +75,10 @@ The best-performing model per dimension was selected.
 ### 🚀 6. Inference and Deployment
 - 🔮 Predictions made on new raw text input
 - ⚡ REST API built with **FastAPI**
-- 🤗 Model hosted on **Hugging Face**
+- 🤗 Model hosted on **Hugging Face Spaces**
 
----
-
-- ## 🛠️ Tech Stack
-
-- 🐼 **pandas / numpy** — data manipulation and numerical computing
-- 📊 **matplotlib / seaborn** — visualization
-- 📚 **nltk / spaCy** — tokenization, lemmatization, sentiment analysis (VADER), stopword removal
-- 🔢 **scikit-learn** — TF-IDF vectorization, modeling, grid search, evaluation
-- ⚖️ **imbalanced-learn** — SMOTE oversampling and random undersampling
-- ⚡ **FastAPI** — API and interface
-- 🤗 **Hugging Face Spaces** — deployment
 ---
 
 ## 📚 References
 
--  [Predicting Myers-Briggs Type Indicator with Text Classification](https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1184/reports/6839354.pdf)
-
-
+[Predicting Myers-Briggs Type Indicator with Text Classification](https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1184/reports/6839354.pdf)
